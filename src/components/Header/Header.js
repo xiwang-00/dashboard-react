@@ -10,7 +10,7 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header">
-        <h2 className="header-title">Tickets</h2>
+        <h2 className="header-title">Xiwang</h2>
         <div className="login-details">
           <div className="searchbar">
             <img src={SearchIcon} alt="" />
