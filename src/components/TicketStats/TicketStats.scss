@@ -1,0 +1,82 @@
+.ticket-stats-card {
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 48%;
+    
+    .card-top {
+        display: flex;
+        padding: 32px 32px 0 32px;
+        justify-content: space-between;
+        margin-bottom: 6px;
+        align-items: center
+    }
+
+    .card-title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        margin: 0;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+        color: #252733;
+    }
+
+    .card-subtitle {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        margin: 0;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+        color: #9FA2B4;
+
+        span {
+            color: #252733;
+        }
+    }
+
+    .link {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: right;
+        letter-spacing: 0.2px;
+        color: #3751FF;
+    }
+}
+
+.list-item {
+    display: flex;
+    border-bottom: 1px solid #DFE0EB;
+    &:hover{
+        background: rgba(55, 81, 255, 0.04)
+    }
+    align-items: center;
+    padding: 16px 32px;
+    justify-content: space-between;
+
+    .list-name {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #252733;
+    }
+
+    .num {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: right;
+        letter-spacing: 0.2px;
+        color: #9FA2B4;
+    }
+}

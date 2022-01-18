@@ -1,0 +1,157 @@
+.ticket-item {
+    border-top: 1.5px solid #DFE0EB;
+    padding: 26px 32px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    &:hover{
+        background: rgba(55, 81, 255,0.04)
+    }
+}
+
+.col {
+    display: flex;
+    width: 46%;
+    align-items: center;
+
+    .user-info {
+        .subject {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 4px;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+            color: #252733;
+        }
+
+        .subject-date {
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 16px;
+            letter-spacing: 0.1px;
+            margin: 0;
+            color: #C5C7CD;
+        }
+    }
+
+    .customerName {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        margin: 4px 0;
+        color: #252733;
+    }
+
+    .activity {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+        margin: 0;
+        color: #C5C7CD;
+    }
+
+    .date {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        margin: 4px 0;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #252733;
+    }
+
+    .priority {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 14px;
+        display: flex;
+        padding: 5px 12px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border-radius: 100px;
+        background: #F12B2C;
+
+        &.NORMAL {
+            background: #29CC97;
+        }
+
+        &.LOW {
+            background: #FEC400;
+        }
+    }
+
+    .dots {
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .time {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+        margin: 0;
+        color: #C5C7CD;
+    }
+
+    .user-img {
+        width: 44px;
+        height: 44px;
+        object-fit: cover;
+        margin-right: 24px;
+        border-radius: 50%;
+    }
+
+    &-sm {
+        width: 18%;
+        align-items: baseline;
+        flex-direction: column;
+
+        &:last-child {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+        }
+    }
+}
+.ticket-heading{
+    display: flex;
+    .text-muted{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        padding: 0 32px;
+        width: 40%;
+        color: #9FA2B4;
+        &.priority{
+            width: 15%;
+        }
+        &.date {
+            width: 15%;
+        }
+        &.name {
+            width: 15%;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto 50px auto;
+
+    .user-info {
+        display: flex;
+        align-items: center;
+    }
+    .login-details{
+        display: flex;
+        .user-name {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: right;
+            letter-spacing: 0.2px;
+            color: #252733;
+            padding: 0 14px 0 32px;
+            display: inline-block;
+        }
+    }
+    .searchbar {
+        display: flex;
+        align-items: center;
+        img{
+        margin-right: 25px;
+        }
+        border-right: 1px solid #DFE0EB;
+    }
+
+    .user-image {
+        border-radius: 50%;
+    }
+}

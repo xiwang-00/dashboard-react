@@ -1,0 +1,37 @@
+.overview-card {
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    box-sizing: border-box;
+    flex-grow: 3;
+    text-align: center;
+    margin-right: 15px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    .number {
+        color: #252733;
+    }
+
+    .title {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color: #9FA2B4;
+    }
+    &:hover{
+        border: 1px solid #3751FF;
+        box-sizing: border-box;
+        border-radius: 8px;
+        .title,
+        .number {
+            color: #3751FF;
+        }
+    }
+    border-radius: 8px;
+}

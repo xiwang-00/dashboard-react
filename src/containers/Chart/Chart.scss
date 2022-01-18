@@ -1,0 +1,95 @@
+.Chart {
+    width: 90%;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.todays-chart {
+    padding: 32px;
+    border-right: 1px solid #DFE0EB;
+    width: 75%;
+}
+
+.daily-overview {
+    width: 25%;
+
+    .overview-card {
+        border: none;
+        border-radius: 0;
+        border-top: 1px solid #DFE0EB;
+
+        &:first-child {
+            border: none;
+        }
+    }
+}
+
+.daily-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .date{
+        h3{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 19px;
+            line-height: 24px;
+            margin: 0;
+            letter-spacing: 0.4px;
+            color: #252733;
+        }
+        p{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 16px;
+            letter-spacing: 0.1px;
+            color: #9FA2B4;
+        }
+    }
+    .graph-guide {
+        display: flex;
+        align-items: center;
+        p {
+            position: relative;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 0.1px;
+            color: #9FA2B4;
+            margin: 0;
+            &:before {
+                content: '';
+                width: 16px;
+                height: 3px;
+                background: #3751FF;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                left: -20px;
+            }
+            &:last-child{
+                margin-left: 32px;
+            &::before{
+
+                background:#DFE0EB
+            }
+        }
+        }
+    }
+}
+.graph-img{
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+    user-select: none;
+    -webkit-user-drag: none;
+}
